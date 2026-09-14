@@ -5,7 +5,7 @@
   "scripts": {
     "start:dev": "nest start --watch",
     "start": "node dist/main",
-    "build": "npx prisma generate && nest build",
+    "build": "node node_modules/prisma/build/index.js generate && nest build"
     "prisma:generate": "prisma generate",
     "prisma:migrate": "prisma migrate dev --name init"
   },
