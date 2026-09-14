@@ -5,10 +5,10 @@
   "scripts": {
     "start:dev": "nest start --watch",
     "start": "node dist/main",
-    "build": "node node_modules/prisma/build/index.js generate && nest build"
+    "build": "node node_modules/prisma/build/index.js generate && nest build",
     "prisma:generate": "prisma generate",
     "prisma:migrate": "prisma migrate dev --name init"
-  },
+  }
   "dependencies": {
     "@nestjs/common": "^11.0.0",
     "@nestjs/core": "^11.0.0",
